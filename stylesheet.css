@@ -123,10 +123,10 @@ display: inline-block;
 
 @font-face {
    font-family: Gravity-light; 
-   src: url('/fonts/gravity-light.otf');
+   src: url('./fonts/gravity-light.otf');
 } 
 
 @font-face {
    font-family: Gravity; 
-   src: url('/fonts/gravity-regular.otf');
+   src: url('./fonts/gravity-regular.otf');
 } 
