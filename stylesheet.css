@@ -1,0 +1,132 @@
+#sidebar{
+float:left;
+height:100%;
+width:300px;
+position:fixed;
+z-index:9999;
+background-color:#d38484;
+top:0;
+left:0;
+}
+
+#portrait{
+height:239px;
+width:240px;
+margin:auto;
+margin-top:67%;
+margin-bottom:45px;
+border-radius:120px;
+background-color:black;
+}
+
+.portrait{
+height:240px;
+width:240px;
+
+}
+
+.blackbar{
+background-color:black;
+width:100%-60px;
+height:2px;
+margin:10px 30px 10px 30px;
+}
+
+.toprow{
+padding:45px 0 5px 15%;
+}
+
+.botrow{
+padding:0 0 15px 15%;
+}
+
+#socialwrapper{
+margin:40px 0 0 300px;
+}
+
+.instagram{
+
+text-align:center;
+margin:40px 0 10px 35%;
+height:30px;
+}
+
+.behance{
+position:absolute;
+text-align:center;
+margin:44px 0 0 22px;
+width:30px;
+}
+
+#main{
+padding-left:440px;
+padding-top:130px;
+height:100%;
+width:100%-300px;
+}
+#detailsmain{
+padding-left:440px;
+padding-top:130px;
+height:100%;
+width:100%-300px;
+}
+
+.pictures{
+height:280px;
+width:280px;
+float:left;
+margin:0 200px 130px 0;
+background-color:black;
+}
+
+.pictures>img{
+height:280px;
+width:280px;
+float:left;
+margin:0 200px 130px 0;
+}
+
+.detailspictures{
+float:left;
+height:auto;
+width:1320px;
+background-color:black;
+margin:0 200px 130px 0;
+}
+
+
+h1{
+font-family:Gravity;
+color:black;
+font-size:19pt;
+text-align:center;
+}
+
+h2{
+margin:0;
+font-family:Gravity;
+color:black;
+font-size:12pt;
+text-align:center;
+font-weight:bold;
+display: inline-block;
+}
+
+h3{
+margin:0;
+font-family:Gravity-light;
+color:black;
+font-size:12pt;
+text-align:center;
+display: inline-block;
+}
+
+@font-face {
+   font-family: Gravity-light; 
+   src: url('fonts/gravity-light.otf');
+} 
+
+@font-face {
+   font-family: Gravity; 
+   src: url('fonts/gravity-regular.otf');
+} 
